@@ -23,7 +23,7 @@ jobs:
       run: python convert.py
 
     - name: Create Artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: converted-files
         path: converted
